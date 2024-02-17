@@ -471,7 +471,7 @@ def app():
                 if df[column].dtypes in ('float', 'float64', 'int','int64'):                    
                     num_cols.append(column)
             if len(num_cols)>1:
-                show_scatter_matrix=st.checkbox('Show scatter matrix',value=False,key= st.session_state['key'])
+                show_scatter_matrix=st.checkbox('Show scatter matrix',value=False)
                 if show_scatter_matrix==True:
                     multi_var_sel = st.multiselect('Select variables for scatter matrix', num_cols, num_cols)
 
