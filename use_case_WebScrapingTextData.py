@@ -127,7 +127,6 @@ def app():
                 'Text Summarization':'Text Summarization',                  
                 'Wikipedia-based Question Answering':'Wikipedia-based Question Answering',
                 'PLOS ONE Paper Summarizer':'PLOS ONE Paper Summarizer',
-                'Yfinance':'Yfinance',
                 'Yfinance Stock Data Explorer':'Yfinance Stock Data Explorer',
                 'Tweet Data Explorer':'Tweet Data Explorer'}
     tw_meth=list(tw_options.keys())          
